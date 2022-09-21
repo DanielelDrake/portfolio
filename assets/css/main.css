@@ -5,10 +5,13 @@
 }
 
 .header {
-    background-image: url('assets/images/header-background.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.btn {
+    color:white;
 }
 
 .description {
@@ -20,7 +23,7 @@
 }
 .description h1 {
 	color: white;
-    font-size: 70px;
+    font-size: 3.7rem;
 }
 .description p {
 	color: white;
@@ -48,16 +51,18 @@
 }
 .feature-title {
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 .features img {
-	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
+}
+.features h1 {
+    text-align: center;
+    color:white;
+    font-size: 2rem;
 }
 .page-footer {
     background-color: #222;
