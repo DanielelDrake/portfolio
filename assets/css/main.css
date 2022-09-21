@@ -20,6 +20,7 @@
 }
 .description h1 {
 	color: white;
+    font-size: 70px;
 }
 .description p {
 	color: white;
@@ -42,7 +43,8 @@
 	margin: 4em auto;
 	padding: 1em;
 	position: relative;
-    border-radius: 20px;;
+    border-radius: 20px;
+    background-color: #0C0032;
 }
 .feature-title {
 	color: white;
